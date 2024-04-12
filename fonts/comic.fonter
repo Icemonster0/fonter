@@ -1,0 +1,104 @@
+/**
+ * This is a comic English font.
+ * It doesn't include special characters, just the 26 letters (lower and upper case),
+ * numbers and some basic punctuation. It wasn't designed to look good, so
+ * please don't judge too hard...
+ */
+
+// Preamble
+
+SPACE_WIDTH 30
+TAB_WIDTH 120
+LINE_SPACING 100
+GLYPH_SIZE 100
+
+// Symbol definitions
+
+SYMBOL A 1 comic_raster.png 0 0 0 0 34 0 LEFT 1 RIGHT 35 END
+SYMBOL B 1 comic_raster.png 0 0 0 0 28 0 LEFT 40 RIGHT 68 END
+SYMBOL C 1 comic_raster.png 0 0 0 0 29 0 LEFT 73 RIGHT 102 END
+SYMBOL D 1 comic_raster.png 0 0 0 0 32 0 LEFT 105 RIGHT 137 END
+SYMBOL E 1 comic_raster.png 0 0 0 0 29 0 LEFT 142 RIGHT 171 END
+SYMBOL F 1 comic_raster.png 0 0 0 0 28 0 LEFT 174 RIGHT 202 END
+SYMBOL G 1 comic_raster.png 0 0 0 0 41 0 LEFT 202 RIGHT 243 END
+SYMBOL H 1 comic_raster.png 0 0 0 0 33 0 LEFT 246 RIGHT 279 END
+SYMBOL I 1 comic_raster.png 0 0 0 0 26 0 LEFT 283 RIGHT 309 END
+SYMBOL J 1 comic_raster.png 0 0 0 0 22 0 LEFT 313 RIGHT 335 END
+SYMBOL K 1 comic_raster.png 0 0 0 0 31 0 LEFT 342 RIGHT 373 END
+SYMBOL L 1 comic_raster.png 0 0 0 0 29 0 LEFT 376 RIGHT 405 END
+SYMBOL M 1 comic_raster.png 0 0 0 0 32 0 LEFT 410 RIGHT 442 END
+SYMBOL N 1 comic_raster.png 0 0 0 0 30 0 LEFT 448 RIGHT 478 END
+SYMBOL O 1 comic_raster.png 0 0 0 0 34 0 LEFT 482 RIGHT 516 END
+SYMBOL P 1 comic_raster.png 0 0 0 0 25 0 LEFT 522 RIGHT 547 END
+SYMBOL Q 1 comic_raster.png 0 0 0 0 34 0 LEFT 551 RIGHT 585 END
+SYMBOL R 1 comic_raster.png 0 0 0 0 25 0 LEFT 592 RIGHT 617 END
+SYMBOL S 1 comic_raster.png 0 0 0 0 30 0 LEFT 623 RIGHT 653 END
+SYMBOL T 1 comic_raster.png 0 0 0 0 41 0 LEFT 654 RIGHT 695 END
+SYMBOL U 1 comic_raster.png 0 0 0 0 34 0 LEFT 700 RIGHT 734 END
+SYMBOL V 1 comic_raster.png 0 0 0 0 32 0 LEFT 739 RIGHT 771 END
+SYMBOL W 1 comic_raster.png 0 0 0 0 40 0 LEFT 778 RIGHT 818 END
+SYMBOL X 1 comic_raster.png 0 0 0 0 31 0 LEFT 820 RIGHT 851 END
+SYMBOL Y 1 comic_raster.png 0 0 0 0 29 0 LEFT 856 RIGHT 885 END
+SYMBOL Z 1 comic_raster.png 0 0 0 0 30 0 LEFT 890 RIGHT 920 END
+
+SYMBOL a 1 comic_raster.png 0 0 0 0 26 0 LEFT 943 RIGHT 969 END
+SYMBOL b 1 comic_raster.png 0 0 0 0 27 0 LEFT 970 RIGHT 997 END
+SYMBOL c 1 comic_raster.png 0 0 0 0 23 0 LEFT 998 RIGHT 1021 END
+SYMBOL d 1 comic_raster.png 0 0 0 0 27 0 LEFT 1022 RIGHT 1049 END
+SYMBOL e 1 comic_raster.png 0 0 0 0 23 0 LEFT 1053 RIGHT 1078 END
+SYMBOL f 1 comic_raster.png 0 0 0 0 21 0 LEFT 1083 RIGHT 1105 END
+SYMBOL g 1 comic_raster.png 0 0 0 0 26 0 LEFT 1106 RIGHT 1131 END
+SYMBOL h 1 comic_raster.png 0 0 0 0 23 0 LEFT 1137 RIGHT 1160 END
+SYMBOL i 1 comic_raster.png 0 0 0 0 9 0 LEFT 1168 RIGHT 1177 END
+SYMBOL j 1 comic_raster.png 6 0 0 0 16 0 LEFT 1181 RIGHT 1197 END
+SYMBOL k 1 comic_raster.png 0 0 0 0 19 0 LEFT 1205 RIGHT 1224 END
+SYMBOL l 1 comic_raster.png 0 0 0 0 16 0 LEFT 1233 RIGHT 1249 END
+SYMBOL m 1 comic_raster.png 0 0 0 0 37 0 LEFT 1254 RIGHT 1291 END
+SYMBOL n 1 comic_raster.png 0 0 0 0 24 0 LEFT 1295 RIGHT 1319 END
+SYMBOL o 1 comic_raster.png 0 0 0 0 29 0 LEFT 1323 RIGHT 1352 END
+SYMBOL p 1 comic_raster.png 0 0 0 0 30 0 LEFT 1355 RIGHT 1385 END
+SYMBOL q 1 comic_raster.png 0 0 0 0 25 0 LEFT 1390 RIGHT 1415 END
+SYMBOL r 1 comic_raster.png 0 0 0 0 22 0 LEFT 1421 RIGHT 1443 END
+SYMBOL s 1 comic_raster.png 0 0 0 0 21 0 LEFT 1451 RIGHT 1472 END
+SYMBOL t 1 comic_raster.png 0 0 0 0 23 0 LEFT 1478 RIGHT 1501 END
+SYMBOL u 1 comic_raster.png 0 0 0 0 23 0 LEFT 1507 RIGHT 1530 END
+SYMBOL v 1 comic_raster.png 0 0 0 0 25 0 LEFT 1536 RIGHT 1561 END
+SYMBOL w 1 comic_raster.png 0 0 0 0 43 0 LEFT 1567 RIGHT 1610 END
+SYMBOL x 1 comic_raster.png 0 0 0 0 24 0 LEFT 1613 RIGHT 1637 END
+SYMBOL y 1 comic_raster.png 0 0 0 0 28 0 LEFT 1642 RIGHT 1670 END
+SYMBOL z 1 comic_raster.png 0 0 0 0 26 0 LEFT 1675 RIGHT 1701 END
+
+SYMBOL ff 1 comic_raster.png 0 0 0 0 32 0 LEFT 2258 RIGHT 2294 END
+SYMBOL fi 1 comic_raster.png 0 0 0 0 27 0 LEFT 2299 RIGHT 2326 END
+SYMBOL ffi 1 comic_raster.png 0 0 0 0 40 0 LEFT 2336 RIGHT 2376 END
+
+SYMBOL 0 1 comic_raster.png 0 0 0 0 33 0 LEFT 1731 RIGHT 1764 END
+SYMBOL 1 1 comic_raster.png 0 0 0 0 18 0 LEFT 1769 RIGHT 1787 END
+SYMBOL 2 1 comic_raster.png 0 0 0 0 29 0 LEFT 1794 RIGHT 1823 END
+SYMBOL 3 1 comic_raster.png 0 0 0 0 31 0 LEFT 1833 RIGHT 1864 END
+SYMBOL 4 1 comic_raster.png 0 0 0 0 31 0 LEFT 1865 RIGHT 1896 END
+SYMBOL 5 1 comic_raster.png 0 0 0 0 31 0 LEFT 1903 RIGHT 1934 END
+SYMBOL 6 1 comic_raster.png 0 0 0 0 30 0 LEFT 1943 RIGHT 1973 END
+SYMBOL 7 1 comic_raster.png 0 0 0 0 35 0 LEFT 1982 RIGHT 2017 END
+SYMBOL 8 1 comic_raster.png 0 0 0 0 34 0 LEFT 2023 RIGHT 2057 END
+SYMBOL 9 1 comic_raster.png 0 0 0 0 28 0 LEFT 2067 RIGHT 2095 END
+
+SYMBOL . 1 comic_raster.png 0 0 0 0 10 0 LEFT 2112 RIGHT 2122 END
+SYMBOL , 1 comic_raster.png 0 0 0 0 9 0 LEFT 2135 RIGHT 2144 END
+SYMBOL : 1 comic_raster.png 0 0 0 0 9 0 LEFT 2156 RIGHT 2165 END
+SYMBOL ; 1 comic_raster.png 0 0 0 0 10 0 LEFT 2177 RIGHT 2187 END
+SYMBOL ? 1 comic_raster.png 0 0 0 0 24 0 LEFT 2201 RIGHT 2225 END
+SYMBOL ! 1 comic_raster.png 0 0 0 0 9 0 LEFT 2237 RIGHT 2246 END
+SYMBOL + 1 comic_raster.png 0 0 0 0 27 0 LEFT 2400 RIGHT 2427 END
+SYMBOL - 1 comic_raster.png 0 0 0 0 23 0 LEFT 2433 RIGHT 2456 END
+SYMBOL = 1 comic_raster.png 0 0 0 0 25 0 LEFT 2464 RIGHT 2489 END
+SYMBOL _ 1 comic_raster.png 0 0 0 0 25 0 LEFT 2497 RIGHT 2522 END
+
+// Replacement rules
+
+FNR_RULE FIND \ n REPLACE \n END
+FNR_RULE FIND \ t REPLACE \t END
+
+FNR_RULE FIND f f i REPLACE ffi END
+FNR_RULE FIND f f REPLACE ff END
+FNR_RULE FIND f i REPLACE fi END

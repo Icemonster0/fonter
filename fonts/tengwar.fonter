@@ -1,0 +1,175 @@
+
+// PREAMBLE
+
+SW_ 75
+TW_ 300
+LS_ 300
+GS_ 300
+
+
+// SYMBOLS
+
+// Common Tengwar
+
+S_ tinco 1 tengwar_raster.png  4 0  55 182  92 0  L_ 6 R_ 98 E_
+S_ parma 1 tengwar_raster.png  4 0  53 182  89 0  L_ 121 R_ 208 E_
+S_ calma 1 tengwar_raster.png  4 0  30 182  82 0  L_ 233 R_ 315 E_
+S_ quesse 1 tengwar_raster.png  4 0  42 182  83 0  L_ 349 R_ 432 E_
+S_ ando 1 tengwar_raster.png  4 0  75 182  131 0  L_ 469 R_ 600 E_
+S_ umbar 1 tengwar_raster.png  4 0  80 182  136 0  L_ 628 R_ 764 E_
+S_ anga 1 tengwar_raster.png  4 0  83 182  131 0  L_ 798 R_ 929 E_
+S_ ungwe 1 tengwar_raster.png  0 0  56 182  131 0  L_ 965 R_ 1096 E_
+S_ sule 1 tengwar_raster.png  4 0  48 182  83 0  L_ 1134 R_ 1217 E_
+S_ formen 1 tengwar_raster.png  4 0  46 182  78 0  L_ 1255 R_ 1333 E_
+S_ harma 1 tengwar_raster.png  4 0  30 182  77 0  L_ 1374 R_ 1451 E_
+S_ hwesta 1 tengwar_raster.png  4 0  34 182  76 0  L_ 1489 R_ 1565 E_
+S_ anto 1 tengwar_raster.png  4 0  87 182  121 0  L_ 1594 R_ 1715 E_
+S_ ampa 1 tengwar_raster.png  4 0  68 182  123 0  L_ 1745 R_ 1868 E_
+S_ anca 1 tengwar_raster.png  4 0  75 182  118 0  L_ 1902 R_ 2020 E_
+S_ unque 1 tengwar_raster.png  4 0  58 182  128 0  L_ 2073 R_ 2201 E_
+S_ numen 1 tengwar_raster.png  4 0  77 182  135 0  L_ 2224 R_ 2359 E_
+S_ malta 1 tengwar_raster.png  4 0  82 182  141 0  L_ 2391 R_ 2532 E_
+S_ noldo 1 tengwar_raster.png  4 0  85 182  127 0  L_ 2548 R_ 2675 E_
+S_ nwalme 1 tengwar_raster.png  4 0  60 182  127 0  L_ 2701 R_ 2828 E_
+S_ ore 1 tengwar_raster.png  4 0  54 182  90 0  L_ 2851 R_ 2941 E_
+S_ vala 1 tengwar_raster.png  4 0  60 182  91 0  L_ 2961 R_ 3052 E_
+S_ anna 1 tengwar_raster.png  0 0  34 182  85 0  L_ 3072 R_ 3157 E_
+S_ vilya 1 tengwar_raster.png  4 0  42 182  89 0  L_ 3190 R_ 3279 E_
+S_ ext_tinco 1 tengwar_raster.png  4 0  50 182  87 0  L_ 3313 R_ 3400 E_
+S_ ext_parma 1 tengwar_raster.png  4 0  50 182  81 0  L_ 3440 R_ 3521 E_
+S_ ext_calma 1 tengwar_raster.png  4 0  27 182  76 0  L_ 3556 R_ 3632 E_
+S_ ext_quesse 1 tengwar_raster.png  4 0  40 182  77 0  L_ 3663 R_ 3740 E_
+S_ ext_ando 1 tengwar_raster.png  4 0  102 182  135 0  L_ 3786 R_ 3921 E_
+S_ ext_umbar 1 tengwar_raster.png  4 0  97 182  123 0  L_ 3954 R_ 4077 E_
+S_ ext_anga 1 tengwar_raster.png  4 0  79 182  126 0  L_ 4105 R_ 4231 E_
+S_ ext_ungwe 1 tengwar_raster.png  4 0  57 182  126 0  L_ 4264 R_ 4390 E_
+
+// Additional Tengwar
+
+S_ romen 1 tengwar_raster.png  8 0  77 182  96 0  L_ 4422 R_ 4518 E_
+S_ arda 1 tengwar_raster.png  4 0  46 182  86 0  L_ 4550 R_ 4636 E_
+S_ lambwe 1 tengwar_raster.png  4 0  54 182  106 0  L_ 4672 R_ 4778 E_
+S_ alda 1 tengwar_raster.png  8 0  53 182  101 0  L_ 4824 R_ 4925 E_
+S_ silme 1 tengwar_raster.png  4 0  20 182  75 0  L_ 4977 R_ 5052 E_
+S_ silme_nuq 1 tengwar_raster.png  4 0  40 182  74 0  L_ 5085 R_ 5159 E_
+S_ esse 1 tengwar_raster.png  4 0  47 182  69 0  L_ 5213 R_ 5282 E_
+S_ esse_nuq 1 tengwar_raster.png  4 0  34 182  70 0  L_ 5318 R_ 5386 E_
+S_ hyarmen 1 tengwar_raster.png  4 0  83 182  113 0  L_ 5438 R_ 5551 E_
+S_ hwesta_sind 1 tengwar_raster.png  4 0  38 182  92 0  L_ 5574 R_ 5666 E_
+S_ yanta 1 tengwar_raster.png  4 0  31 182  89 0  L_ 5709 R_ 5798 E_
+S_ ure 1 tengwar_raster.png  4 0  40 182  79 0  L_ 5834 R_ 5913 E_
+S_ osse 1 tengwar_raster.png  4 0  34 191  74 0  L_ 5950 R_ 6024 E_
+S_ halla 1 tengwar_raster.png  4 0  18 265  32 0  L_ 6054 R_ 6086 E_
+S_ telco 1 tengwar_raster.png  4 0  10 182  25 0  L_ 6137 R_ 6157 E_
+S_ ara 1 tengwar_raster.png  4 0  10 182  25 0  L_ 6204 R_ 6229 E_
+S_ sa-rince 11 tengwar_raster.png  20 0  0 0  100 0  L_ 7315 R_ 7412 E_
+// S_ sa-rince 9 tengwar_raster.png  -25 90  53 50  0 0  L_ 7315 R_ 7412 B_ 72 T_ 127 E_
+
+// Tehtar
+
+S_ threedots 9 tengwar_raster.png  19 -15  21 35  0 0  L_ 6333 R_ 6372 B_ 206 T_ 240 E_
+S_ tecco 9 tengwar_raster.png  10 -15  15 30  0 0  L_ 6395 R_ 6421 B_ 208 T_ 236 E_
+S_ amatixe 9 tengwar_raster.png  9 -20  9 23  0 0  L_ 6454 R_ 6472 B_ 213 T_ 230 E_
+S_ o-hook 9 tengwar_raster.png  3 -4  12 31  0 0  L_ 6505 R_ 6545 B_ 193 T_ 224 E_
+S_ u-hook 9 tengwar_raster.png  3 -5  12 36  0 0  L_ 6580 R_ 6609 B_ 193 T_ 230 E_
+S_ fean_diac 9 tengwar_raster.png  21 -10  21 35  0 0  L_ 6655 R_ 6691 B_ 208 T_ 225 E_
+S_ double_o-hook 9 tengwar_raster.png  14 2  17 34  0 0  L_ 6719 R_ 6777 B_ 191 T_ 225 E_
+S_ double_u-hook 9 tengwar_raster.png  13 2  7 34  0 0  L_ 6802 R_ 6842 B_ 190 T_ 227 E_
+S_ double_tecco 9 tengwar_raster.png  14 -15  21 30  0 0  L_ 6887 R_ 6931 B_ 209 T_ 236 E_
+S_ omatehta 9 tengwar_raster.png  14 -10  14 21  0 0  L_ 6954 R_ 6985 B_ 208 T_ 228 E_
+S_ tilde 9 tengwar_raster.png  40 -10  47 20  0 0  L_ 7028 R_ 7127 B_ 204 T_ 223 E_
+S_ wavy-curl 9 tengwar_raster.png  30 -10  38 22  0 0  L_ 7165 R_ 7244 B_ 209 T_ 235 E_
+S_ unutixe 9 tengwar_raster.png  8 90  8 -3  0 0  L_ 7466 R_ 7484 B_ 93 T_ 111 E_
+
+
+// REPLACEMENTS
+
+FR_ F_ \ n R_ \n E_
+FR_ F_ \ t R_ \t E_
+
+FR_ F_ A R_ a E_    FR_ F_ B R_ b E_
+FR_ F_ C R_ c E_    FR_ F_ D R_ d E_
+FR_ F_ E R_ e E_    FR_ F_ F R_ f E_
+FR_ F_ G R_ g E_    FR_ F_ H R_ h E_
+FR_ F_ I R_ i E_    FR_ F_ J R_ j E_
+FR_ F_ K R_ k E_    FR_ F_ L R_ l E_
+FR_ F_ M R_ m E_    FR_ F_ N R_ n E_
+FR_ F_ O R_ o E_    FR_ F_ P R_ p E_
+FR_ F_ Q R_ q E_    FR_ F_ R R_ r E_
+FR_ F_ S R_ s E_    FR_ F_ T R_ t E_
+FR_ F_ U R_ u E_    FR_ F_ V R_ v E_
+FR_ F_ W R_ w E_    FR_ F_ X R_ x E_
+FR_ F_ Y R_ y E_    FR_ F_ Z R_ z E_
+
+FR_ F_ t h e R_ ext_ando E_
+FR_ F_ o f R_ ext_umbar E_
+FR_ F_ t h R_ sule E_
+FR_ F_ a n d R_ tilde ando E_
+FR_ F_ n g R_ nwalme E_
+FR_ F_ l l R_ alda E_
+FR_ F_ c k R_ ext_quesse E_
+FR_ F_ c h R_ calma E_
+FR_ F_ q w R_ wavy-curl calma E_
+FR_ F_ q u R_ wavy-curl calma E_
+FR_ F_ n n R_ tilde numen E_
+FR_ F_ m m R_ tilde malta E_
+FR_ F_ n t R_ tilde tinco E_
+FR_ F_ n d R_ tilde ando E_
+FR_ F_ m p R_ tilde parma E_
+FR_ F_ m b R_ tilde umbmar E_
+FR_ F_ w h R_ hwesta_sind E_
+FR_ F_ s h R_ harma E_
+
+FR_ F_ o o R_ double_o-hook E_
+FR_ F_ u u R_ double_u-hook E_
+FR_ F_ e e R_ double_tecco E_
+FR_ F_ e a R_ tecco osse E_
+FR_ F_ e u R_ tecco vala E_
+FR_ F_ e w R_ tecco vala E_
+FR_ F_ e i R_ tecco anna E_
+FR_ F_ i e R_ amatixe tecco E_
+FR_ F_ a e R_ threedots tecco E_
+FR_ F_ a u R_ threedots vala E_
+FR_ F_ o u R_ o-hook vala E_
+FR_ F_ a R_ threedots E_
+FR_ F_ e R_ tecco E_
+FR_ F_ i R_ amatixe E_
+FR_ F_ o R_ o-hook E_
+FR_ F_ u R_ u-hook E_
+
+FR_ F_ $9 s R_ $1 silme_nuq E_
+FR_ F_ $9 z R_ $1 esse_nuq E_
+
+FR_ F_ b R_ umbar E_
+FR_ F_ c R_ quesse E_
+FR_ F_ d R_ ando E_
+FR_ F_ f R_ formen E_
+FR_ F_ g R_ ungwe E_
+FR_ F_ h R_ hyarmen E_
+FR_ F_ j R_ anga E_
+FR_ F_ k R_ quesse E_
+FR_ F_ l R_ lambwe E_
+FR_ F_ m R_ malta E_
+FR_ F_ n R_ numen E_
+FR_ F_ p R_ parma E_
+FR_ F_ q R_ quesse E_
+FR_ F_ r $9 R_ romen $1 E_
+FR_ F_ r R_ ore E_
+FR_ F_ s R_ silme E_
+FR_ F_ t R_ tinco E_
+FR_ F_ v R_ ampa E_
+FR_ F_ w R_ vala E_
+FR_ F_ x R_ quesse silme E_
+FR_ F_ y R_ anna E_
+FR_ F_ z R_ esse E_
+
+FR_ F_ $1 silme $0 R_ $1 sa-rince $2 E_
+
+//  ATTACHMENTS
+
+FR_ F_ $9 $9 R_ $1 telco $2 E_
+FR_ F_ $9 $0 R_ $1 telco $2 E_
+FR_ F_ $9 $1 R_ $2 $1 || E_ // swap consonants and diacritics (for this we have to insert seperators)
+FR_ F_ || R_ E_ // delete seperators
+
+AR_ $1 $9 // attach diacritics

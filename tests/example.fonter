@@ -1,0 +1,39 @@
+
+SW_ 300
+TW_ 1200
+LS_ 600
+GS_ 211
+
+S_ smiley 1 example.png
+    0 0
+    150 300
+    300 0
+    E_
+
+S_ yelims 2 example.png
+    0 0
+    105 195
+    211 0
+    L_ 56 R_ 267
+    B_ 54 T_ 249
+    END
+
+FR_ F_ \ n R_ \n E_
+FR_ F_ \ t R_ \t E_
+
+FR_ F_ s R_ smiley E_
+FR_ F_ y R_ yelims E_
+
+FR_
+    F_ smiley smiley
+    R_ yelims E_
+
+AR_ smiley yelims
+
+AR_ yelims yelims
+
+FR_ F_ o a R_ a ° E_
+FR_ F_ a a R_ a ´ E_
+
+AR_ a ´
+AR_ a °
