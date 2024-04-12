@@ -39,8 +39,8 @@ add_library(main_module STATIC
     src/user_config.hpp
 )
 
-target_compile_options(main_module BEFORE PUBLIC -fopenmp -O3)
-target_link_libraries(main_module pthread -fopenmp libs_module)
+target_compile_options(main_module BEFORE PUBLIC -O3)
+target_link_libraries(main_module libs_module)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME} main_module)
