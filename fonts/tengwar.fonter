@@ -92,6 +92,13 @@ S_ unutixe 9 tengwar_raster.png  8 90  8 -3  0 0  L_ 7466 R_ 7484 B_ 93 T_ 111 E
 FR_ F_ \ n R_ \n E_
 FR_ F_ \ t R_ \t E_
 
+FR_ F_ . R_ E_
+FR_ F_ , R_ E_
+FR_ F_ ! R_ E_
+FR_ F_ ? R_ E_
+FR_ F_ - R_ E_
+FR_ F_ + R_ E_
+
 FR_ F_ A R_ a E_    FR_ F_ B R_ b E_
 FR_ F_ C R_ c E_    FR_ F_ D R_ d E_
 FR_ F_ E R_ e E_    FR_ F_ F R_ f E_
