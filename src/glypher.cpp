@@ -18,7 +18,13 @@ std::list<Glyph> Glypher::glyphify(const std::string &input_text, const Font &fo
 
 void Glypher::slice_input_text(const std::string &input_text) {
     for (const char &character : input_text) {
-        glyph_list.emplace_back(std::string {character});
+        if (character == '\n') {
+            glyph_list.emplace_back(std::string {"\\n"});
+        } else if (character == '\t') {
+            glyph_list.emplace_back(std::string {"\\t"});
+        } else {
+            glyph_list.emplace_back(std::string {character});
+        }
     }
 }
 
