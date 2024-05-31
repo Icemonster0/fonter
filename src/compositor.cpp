@@ -21,6 +21,7 @@ Texture Compositor::render_image(const std::list<Glyph> &glyphs, const Font &fon
     // }
 
     const glm::ivec2 img_size = image.get_size();
+    #pragma omp parallel for collapse(2) schedule(static)
     for (int x = 0; x < img_size.x; ++x) {
         for (int y = 0; y < img_size.y; ++y) {
             glm::vec4 color = image.get_pixel({x, y});

@@ -39,8 +39,18 @@ add_library(main_module STATIC
     src/user_config.hpp
 )
 
-target_compile_options(main_module BEFORE PUBLIC -O3)
-target_link_libraries(main_module libs_module)
+if(CMAKE_SYSTEM_NAME STREQUAL "Darwin" AND (CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "AppleClang"))
+    message("Darwin Clang detected")
+    target_compile_options(main_module BEFORE PUBLIC -Xpreprocessor -fopenmp -O3)
+else()
+    target_compile_options(main_module BEFORE PUBLIC -fopenmp -O3)
+endif()
+
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    target_link_libraries(main_module pthread)
+endif()
+
+target_link_libraries(main_module libs_module -fopenmp)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 target_link_libraries(${PROJECT_NAME} main_module)
