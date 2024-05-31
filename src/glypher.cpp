@@ -65,6 +65,7 @@ void Glypher::apply_attach_rules(const Font &font) {
                 if (next_it != glyph_list.rend() &&
                     (!is_var && next_it->base->symbol == rule.base ||
                       is_var && sym->type == type)) {
+                    if (next_it->base->attached) delete next_it->base->attached;
                     next_it->base->attached = it->base;
                     it->base = nullptr;
                     it = --std::reverse_iterator(glyph_list.erase(--(it.base())));
