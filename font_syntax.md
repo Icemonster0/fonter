@@ -61,15 +61,18 @@ C-like line and block comments are supported.
 ### Abbreviations
 The following abbreviations are available (note the `_` to avoid ambiguity):
 ```
-SPACE_WIDTH -> SW_
-TAB_WIDTH -> TW_
-LINE_SPACING -> LS_
-GLYPH_SIZE -> GS_
-SYMBOL -> S_
-LEFT -> L_
-RIGHT -> R_
-TOP -> T_
-BOTTOM -> B_
-FNR_RULE -> FR_
-ATTACH_RULE -> AR_
+SPACE_WIDTH = SW_
+TAB_WIDTH = TW_
+LINE_SPACING = LS_
+GLYPH_SIZE = GS_
+SYMBOL = S_
+LEFT = L_
+RIGHT = R_
+TOP = T_
+BOTTOM = B_
+FNR_RULE = FR_
+FIND = F_
+REPLACE = R_
+ATTACH_RULE = AR_
+END = E_
 ```

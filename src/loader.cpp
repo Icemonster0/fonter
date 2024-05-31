@@ -224,7 +224,10 @@ bool Loader::validate_symbol_name(std::string name, std::string context, bool st
         name == "TOP" || name == "T_" ||
         name == "BOTTOM" || name == "B_" ||
         name == "FNR_RULE" || name == "FR_" ||
+        name == "FIND" || name == "F_" ||
+        name == "REPLACE" || name == "R_" ||
         name == "ATTACH_RULE" || name == "AR_" ||
+        name == "END" || name == "E_" ||
         strict && (name == " " || name == "\\n" || name == "\\t")
     ) {
         syntax_error(std::string("the word '").append(name).append("' is reserved and cannot be used as a symbol name"), context);
