@@ -181,7 +181,7 @@ FR_ F_ $1 silme $0 R_ $1 sa-rince $2 E_
 
 FR_ F_ $9 $9 R_ $1 telco $2 E_
 FR_ F_ $9 $0 R_ $1 telco $2 E_
-FR_ F_ $9 $1 R_ $2 $1 || E_ // swap consonants and diacritics (for this we have to insert seperators)
-FR_ F_ || R_ E_ // delete seperators
+FR_ F_ $9 $1 R_ $2 $1 || E_ // swap consonants and diacritics (for this we have to insert separators)
+FR_ F_ || R_ E_ // delete separators
 
 AR_ $1 $9 // attach diacritics
